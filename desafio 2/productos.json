@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Arroz",
+        "description": "largo fino",
+        "price": 400,
+        "thumbnail": "sin imagen",
+        "code": 1234,
+        "stock": 20,
+        "id": 0
+    }
+]
