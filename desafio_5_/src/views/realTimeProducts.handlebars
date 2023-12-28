@@ -1,0 +1,24 @@
+{{!-- //ESTE ES EL LADO DEL CLIENTE --}}
+
+<h3>Socket Cliente</h3>
+{{!-- //formulario que debe llenar el cliente --}}
+<form id="form">
+    <label>Name</label><input type="text" name="name" id="name">
+     <label>Price</label><input type="number" name="price" id="price">
+     <input type="submit" value="SEND">
+</form>
+
+<h2>estoy siendo renderizado desde websocket.handlebars</h2>
+
+{{!-- //los productos se muestran aca --}}
+<p id="products"></p>
+
+{{!-- //socket el lado de cliente --}}
+<script src="/socket.io/socket.io.js"></script>
+<script src="js/index.js"></script>
+
+
+<script>
+    const socket = io();
+</script>
+
